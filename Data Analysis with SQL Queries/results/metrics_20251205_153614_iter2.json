@@ -1,0 +1,40 @@
+{
+    "LangGraph": [
+        {
+            "iteration": 0,
+            "start_time": 1764928880.4506931,
+            "api_calls": 5,
+            "retries": 0,
+            "api_latencies": [
+                1.9298310279846191,
+                4.820868730545044,
+                33.29543995857239,
+                31.96384286880493,
+                45.47071623802185
+            ],
+            "latency": 117.52296996116638,
+            "avg_api_latency": 23.496139764785767,
+            "match_percentage": 100.0
+        },
+        {
+            "iteration": 1,
+            "start_time": 1764928997.97375,
+            "api_calls": 5,
+            "retries": 0,
+            "api_latencies": [
+                32.59911298751831,
+                32.346691846847534,
+                34.201082944869995,
+                32.38848686218262,
+                45.31902599334717
+            ],
+            "latency": 176.89148378372192,
+            "avg_api_latency": 35.370880126953125,
+            "match_percentage": 100.0
+        },
+        {
+            "iteration": "average",
+            "match_percentage": 100.0
+        }
+    ]
+}

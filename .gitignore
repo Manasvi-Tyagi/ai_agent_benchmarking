@@ -1,0 +1,38 @@
+node_modules/
+data/
+datasets/
+models/
+outputs/
+*.csv
+*.zip
+*.tar
+*.pt
+*.pth
+*.h5
+*.onnx
+dist/
+build/
+
+# Python / Jupyter junk
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment folders
+venv/
+env/
+.venv/
+
+# Mac system files
+.DS_Store
+
+# Logs and outputs
+*.log
+
+# Data or models (optional — uncomment if needed)
+# *.csv
+# *.h5
+# *.pt
+# *.pkl
