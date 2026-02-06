@@ -33,8 +33,8 @@ with open(script_dir / "config.yaml", "r") as f:
     config = yaml.safe_load(f)
 
 # Set API keys before loading LLM
-os.environ["GROQ_API_KEY"] = "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"
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = ".."
+os.environ["OPENAI_API_KEY"] = "..."
 
 # Get API key for GROQ
 #if not os.environ.get("GROQ_API_KEY"):

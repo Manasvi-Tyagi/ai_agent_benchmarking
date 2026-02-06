@@ -36,7 +36,7 @@ with open(config_path, "r") as f:
     config = yaml.safe_load(f)
 
 # Get API key for GROQ
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "  ..."
 
 # Load the LLM
 llm = get_llm(config)
